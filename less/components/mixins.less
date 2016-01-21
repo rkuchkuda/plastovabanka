@@ -1,0 +1,77 @@
+.ico {
+    position: relative;
+    display: inline-block;
+}
+
+.br(@br) {
+    -webkit-border-radius: @br;
+    -moz-border-radius: @br;
+    -o-border-radius: @br;
+    border-radius: @br;
+}
+
+.tr(@tr) {
+    -webkit-transition: @tr;
+    -moz-transition: @tr;
+    -ms-transition: @tr;
+    -o-transition: @tr;
+    transition: @tr;
+}
+
+.box {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.nosel {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.clr {
+    .clearfix;
+}
+
+.c {
+    content: '';
+    margin: auto;
+    display: block;
+    position: absolute;
+}
+
+.ci {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    margin: auto;
+    position: absolute;
+}
+
+.anti {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.clearfix {
+    zoom: 1;
+    &:before, &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}

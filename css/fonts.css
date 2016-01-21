@@ -1,0 +1,86 @@
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans/OpenSans-Light.ttf);
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans/OpenSans-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans/OpenSans-Regular.ttf);
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans/OpenSans-Italic.ttf);
+    font-weight: 400;
+    font-style: italic
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans/OpenSans-Semibold.ttf);
+    font-weight: 600;
+    font-style: normal
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans/OpenSans-SemiboldItalic.ttf);
+    font-weight: 600;
+    font-style: italic
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans/OpenSans-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans/OpenSans-ExtraBold.ttf);
+    font-weight: 900;
+    font-style: normal
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf);
+    font-weight: 900;
+    font-style: italic
+}
+
+@font-face {
+    font-family: FontAwesome;
+    src: url("../fonts/FontAwesome/fontawesome-webfont.eot?v=4.4.0");
+    src: url("../fonts/FontAwesome/fontawesome-webfont.eot?#iefix&v=4.4.0") format("embedded-opentype"),url("../fonts/FontAwesome/fontawesome-webfont.woff2?v=4.4.0") format("woff2"),url("../fonts/FontAwesome/fontawesome-webfont.woff?v=4.4.0") format("woff"),url("../fonts/FontAwesome/fontawesome-webfont.ttf?v=4.4.0") format("truetype"),url("../fonts/FontAwesome/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular") format("svg");
+    font-weight: normal;
+    font-style: normal
+}
+
+.fa {
+    font-size: inherit;
+    text-rendering: auto;
+    display: inline-block;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font: normal normal normal 14px/1 FontAwesome
+}

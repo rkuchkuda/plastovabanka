@@ -75,3 +75,12 @@
         clear: both;
     }
 }
+
+.placeholder-color(@color){
+    &:-moz-placeholder{
+        color: @color;
+    }
+    &::-webkit-input-placeholder{
+        color: @color;
+    }
+}
